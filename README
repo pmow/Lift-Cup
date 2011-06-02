@@ -68,6 +68,14 @@ Run just ./lc.py with no options to see all other options.
 Newsmangler Config
 ====================
 
+Newsmangler's config is stored in a file called .newsmangler.conf (not created by default).  For convenience, a sample config file, sample.conf is provided.  Edit this config file to allow newsmangler to post.  The typical user needs to change:
+-default_group:alt.binaries.multimedia
+-subject_prefix:[Lift-Cup]
+-hostname (SERVER): Your Usenet ISP hostname here.
+-username (SERVER): Your Usenet ISP's username.
+-password (SERVER): Your Usenet account password.
+-connections: Should be set to 3-4 for optimal performance.
+
 In order to get your files detected on the automatic indexing sites you should use the [Lift-Cup] prefix and post to alt.binaries.multimedia.
 
 So your resulting posts should look something like:
